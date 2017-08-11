@@ -1,0 +1,8 @@
+---
+- id: jinja2-lint
+  name: Jinja2 Lint
+  entry: jinja2-lint
+  language: python
+  files: \.j2$
+  description: Basic Linting of Jinja2 templates
+  minimum_pre_commit_version: 0.15.0
